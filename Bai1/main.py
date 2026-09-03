@@ -38,7 +38,7 @@ for n in ds:
     if t1 > t2:
         nhanxet = "Cach 2 nhanh hon"
     elif t1 < t2:
-        nhanxet = "Cache 1 nhanh hon"
+        nhanxet = "Cach 1 nhanh hon"
     else:
         nhanxet = "Hai cach bang nhau"
     print("{:<10} {:<20.8f} {:<20.8f} {:<20}".format(n, t1, t2, nhanxet ))
